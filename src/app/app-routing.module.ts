@@ -10,14 +10,12 @@ import { TermsComponent } from './terms/terms.component';
 
 
 const routes: Routes = [
-  {path: '', pathMatch: 'full', redirectTo: 'home'},
-  //, component: HomeComponent},
-  {path: 'home', component: HomeComponent},
+  {path: '', pathMatch: 'full', component: HomeComponent},
   {path: 'news', component: NewsComponent},
   {path: 'faq', component: FaqComponent},
   {path: 'copyright', component: CopyrightComponent},
   {path: 'privacy', component: PrivacyComponent},
-  {path: 'terms', component: TermsComponent}
+  {path: 'privacy', component: TermsComponent}
 
 
 ];
