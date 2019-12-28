@@ -10,7 +10,7 @@ import { TermsComponent } from './terms/terms.component';
 
 
 const routes: Routes = [
-  {path: '', pathMatch: 'full', component: HomeComponent},
+  {path: 'home', pathMatch: 'full', component: HomeComponent},
   {path: 'news', component: NewsComponent},
   {path: 'faq', component: FaqComponent},
   {path: 'copyright', component: CopyrightComponent},
